@@ -8,9 +8,30 @@
 }
 
 .intro {
+  text-align: center;
+  font-size: 40pt;
   background-color: #000000;
   color: #ffffff;
-  padding: 15px;
+  padding: 5px;
+  margin: 0 0 12px;
+  text-shadow:  0px 1px 6px #fff,
+                2px 4px 4px #0ff,
+                4px 5px 6px #00f,
+                9px 0px 10px #444,
+                0px 0px 20px #8f4,
+                0px 0px 30px #444,
+                0px 0px 40px #f44;
+}
+
+#welcomeHeader:hover{
+
+  text-shadow:  0px 0px 40px #f44,
+                0px 0px 30px #444,
+                0px 0px 20px #8f4,
+                9px 0px 10px #444,
+                4px 5px 6px #00f,
+                2px 4px 4px #0ff,
+                0px 1px 6px #fff;
 }
 
 .github-social-link a {
