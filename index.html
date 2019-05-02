@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <!-- https://www.w3schools.com/css/css_rwd_viewport.asp -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Needed to use their asset - https://fontawesome.com/start -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -11,7 +10,7 @@
 
     <title>Dekel | Making Progress</title>
   </head>
-  <body style="text-align: center;">
+  <body>
   <div id="particles-js"></div>
     <main>
       <!-- <div class="intro">
@@ -22,19 +21,19 @@
 
     <div class="container">
       <header>
-        <h1 id="welcomeHeader">Hello World</h1>
+        <h1 id="welcomeHeader" style="font-size: 4vmax;">Hello World</h1>
       </header>
       <hr />
-      <div id="description" class="description" style="font-size: 1vw;" >
+      <div id="description" class="description" style="font-size: 2vmax;" >
         <!-- <p>Under Construction</p> -->
-        <td><strong> Dekel Temam </strong>born in 1990, graduate in Software Engineering</td>
+        <td><strong> Dekel Temam </strong>born in 1990, Graduate Software Engineer (B.Sc)</td>
         <!-- <i class="fas fa-hard-hat fa-10x" style="object-fit: contain;"></i> <!--Need SVG + JS to work : data-fa-transform="grow-6" -->
       </div>
 
       <div id="social-contact">
         <hr />
         <nav>
-        <a title="Github page" target="_blank" href="https://github.com/Flameruin"><!--text goes here--><i class="fab fa-github-alt" style="font-size:3vw; color: #6163ee;"></i></a>
+        <a title="Github page" target="_blank" href="https://github.com/Flameruin"><!--text goes here--><i class="fab fa-github-alt" style="font-size:3vmax; color: #6163ee;"></i></a>
         </nav>
       </div>
     </div>
@@ -62,11 +61,11 @@
           "polygon": {
             "nb_sides": 7
           },
-          "image": {
-            "src": "img/github.svg",
-            "width": 100,
-            "height": 100
-          }
+          // "image": {
+          //   "src": "img/github.svg",
+          //   "width": 100,
+          //   "height": 100
+          // }
         },
         "opacity": {
           "value": 0.3472249623182,
@@ -121,7 +120,7 @@
             "enable": true,
             "mode": "repulse"
           },
-          "resize": true
+          "resize": false
         },
         "modes": {
           "grab": {

@@ -40,6 +40,7 @@
 html,body{height:95%}
 
 body{
+  text-align: center;
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -64,14 +65,13 @@ main{
   display:flex;
   flex-direction: column;
   /* margin: auto;  */
-  width:40%;
+  width:45.4vmax;
 
   /* height:50%; */
   position: relative;
   z-index:3;
   background-color:#051b28;
   overflow: auto
-  /* text-align:center */
 }
 
 #particles-js{
